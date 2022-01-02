@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background: black;
+}
+.best{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.best span{
+    font-size: 20px;
+}
+.search{
+    border: 1px solid black; 
+    margin-top: 25px;
+    padding-right: 50px;
+    padding-left: 5px;
+}
+.absolute{
+    position: relative;
+    right: 32px;
+    background: #FCBD70;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.cart{
+    margin-top: 20px;
+}
+.sign{
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    margin-left: 15px;
+}
+.sign:hover{
+    text-decoration: none;
+    color: black;
+}
+.brand{
+    margin-left: 169px;
+}
+.magss{
+    color: black;
+    margin-left: 23px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.magss:hover{
+    text-decoration: none;
+    border-bottom: 2px solid black!important;
+    color: black;
+}
+.image1{
+    background-image: url('img/flash-banner-12062021.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+}
+.section2{
+    background-color: #F3F4F6;
+    height: 5vh;
+    color: black;
+}
+.section2:hover{
+    background-color: #DFE0E0;
+    color: black;
+    text-decoration: none;
+}
+.pic1{
+    background-image: url('img/pic1.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.pic2{
+    background-image: url('img/pic2.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.pic3{
+    background-image: url('img/pic3.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.pic4{
+    background-image: url('img/pic4.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.card{
+    background: white;
+    opacity: 0.6;
+    color: black;
+    border: none;
+}
+.cardo{
+    background: white;
+    border: none;
+    width: 55%;
+    margin-top: 10px;
+}
+.section3{
+    width: 70%;
+    margin-top: 60px;
+}
+.sale{
+    font-size: 20px;
+    color: black;
+}
+.sale:hover{
+    color: black;
+    text-decoration: none;
+}
+.sale1{
+    color: black;
+}
+.sale1:hover{
+    color: black;
+    text-decoration: none;
+}
+.popular{
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.watch{
+    border: 3px solid #dcdcdc;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.watchs{
+    border: 3px solid #dcdcdc;
+    border-radius: 50%;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 20px; 
+}
+.watches{
+    border: 3px solid #dcdcdc;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-radius: 50%;
+}
+.watch:hover{
+    border: 3px solid #8c8c8c;
+    background: #d7d7d7;
+}
+.watches:hover{
+    border: 3px solid #8c8c8c;
+    background: #d7d7d7;
+}
+.watchs:hover{
+    border: 3px solid #8c8c8c;
+    background: #d7d7d7;
+}
+.link{
+    color: black;
+}
+.link:hover{
+    color: black;
+    text-decoration: none;
+}
+.men{
+    background: url('img/mens-watches-bg.jpg');
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 3px solid white;
+}
+.women{
+    background: url('img/women-watches-bg.jpg');
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.access{
+    background: url('img/a.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+}
+.access1{
+    background: url('img/a2.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.access4{
+    background: url('img/a3.jpg');
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: 99%;
+}
+.access3{
+    background: url('img/a4.jpg');
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: 99%;
+}
+.loop{
+    background: #CFD4DA;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: none;
+}
+.form{
+    background: #F3F4F6;
+    margin-left: 60px;
+    padding: 24px 60px 24px 30px; 
+    border: none;
+}
+.serv{
+    color: black;
+}
+.serv:hover{
+    color: black;
+    text-decoration: none;
+}
+.rare{
+    font-size: 23px;
+    font-weight: 650;
+    color: black;
+}
+.rare:hover{
+    color: black;
+    text-decoration: black;
+}
+.man{
+    background: #f3f4f663;
+    margin-top: 120px;
+}
+.met{
+    color: black;
+}
+.met:hover{
+    color: black;
+    text-decoration: none;
+}
+.check{
+    background: #CFD4DA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.out{
+    color: black;
+}
+.out:hover{
+    color: black;
+    text-decoration: none;
+}
+.checks{
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+.modal{
+    margin-top: 200px;
+    width: 50%;
+    margin-left: 350px;
+}
+.ling{
+    padding-left:50px;
+
+}

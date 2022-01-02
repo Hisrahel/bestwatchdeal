@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN | Best Watch Deal </title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="assets/plugins/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="section">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 mt-4">
+                <a href="index.html" class=""><img src="img/com.png" alt=""></a>
+            </div>
+            <div class="col-md-6 mt-4 text-right">
+                <a href="#" class=""><img src="img/mail.png" alt=""></a>
+            </div>
+        </div>
+      </div>
+  </div>
+
+  <section class="checks">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-4">
+                <a href="guest.html" class="out"><p class="text-center check"><b>CHECKOUT AS A GUEST</b></p></a>
+              </div>
+              <div class="col-md-4">
+                <a href="#" class="out"><p class="text-center check" id="myBtn"><b>CHECKOUT USING YOUR ACCOUNT</b></p></a>
+
+                                    <!-- The Modal -->
+                    <div id="myModal" class="modal">          
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <a href="#" class=""><span class="close">&times;</span></a>
+                        <p class="text-center"><b>Sign in using your existing user ID with:</b></p>
+                        <div class="row  pl-5 pb-4  justify-content-center">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <a href="#" class=""><img src="img/yahoo-76684_1280-1.png" alt="" width="120%"></a>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <a href="#" class=""><img src="img/download (1).png" alt="" width="120%" class="mt-2"></a>
+                                            </div>
+                                        </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <a href="#" class=""><img src="img/AOL.png" alt="" width="120%"></a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a href="#" class=""><img src="img/facebook-long.png" alt="" width="150%" class="mt-"></a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="pl-3 text-center">Don't have a store account? <a href="#" class="out"><span><u>Register with us</u></span></a> using your ID from a provider listed here.</p>
+                        </div>   
+                        </div>
+  </div>
+
+            <div class="col-md-4">
+                <a href="#" class="out"><p class="text-center check" id="myBtn1"><b>CHECKOUT REGISTER NOW</b></p></a>
+
+
+    <!-- The Modal -->
+    <div id="myModal1" class="modal">          
+        <!-- Modal content -->
+        <div class="modal-content">
+        <a href="#" class=""><span class="close1">&times;</span></a>
+        <p class="text-center"><b>Register with us using your user ID with:</b></p>
+        <div class="row  pl-5 pb-4  justify-content-center">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="#" class=""><img src="img/yahoo-76684_1280-1.png" alt="" width="120%"></a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#" class=""><img src="img/download (1).png" alt="" width="120%" class="mt-2"></a>
+                            </div>
+                        </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#" class=""><img src="img/AOL.png" alt="" width="120%"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#" class=""><img src="img/facebook-long.png" alt="" width="150%" class="mt-"></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="pl-3 text-center"><a href="sign.html" class="out"><span><u>Sign in now</u></span></a>  (existing store accounts).</p>
+        </div>   
+        </div>
+
+
+            </div>
+          </div>
+      </div>
+  </section>
+  <hr>
+
+  <div class="container">
+    <div class="row justify-content-center">
+        <img src="img/white-stats.gif" alt="" class="pt-3">
+        </div>
+        </div>
+
+
+
+
+
+
+
+    <script src="assets/plugins/purecounter/purecounter.js"></script>
+    <script src="assets/plugins/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    <script src="assets/plugins/wow/wow.min.js"></script>
+    <script>
+        new WOW().init()
+        
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+
+    // Get the modal
+    var modal = document.getElementById('myModal1');
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn1");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close1")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+
+
+
+    
+    </script>
+
+</body>
+</html>
