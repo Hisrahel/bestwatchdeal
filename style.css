@@ -10,9 +10,14 @@
     font-size: 50px;
     letter-spacing: 1px;
     font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 .best span{
     font-size: 20px;
+}
+.best:hover{
+    text-decoration: none;
+    color: black;
 }
 .search{
     border: 1px solid black; 
@@ -32,6 +37,10 @@
 }
 .cart{
     margin-top: 20px;
+    color: black;
+}
+.cart:hover{
+    color: black;
 }
 .sign{
     margin-top: 20px;
@@ -270,5 +279,105 @@
 }
 .ling{
     padding-left:50px;
-
+}
+.envy{
+    padding-top: 30px;
+}
+.class{
+    margin-bottom: 25px;
+}
+@media(max-width: 576px){
+    .envy{
+        margin-left: 70px !important;
+        padding-top: 10px;
+    }
+    .best{
+        font-size: 40px;
+        margin-left: 5px;
+    }
+    .brand{
+        margin-left: 50px;
+    }
+     .search{
+        margin-top: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+    } 
+    .sign{
+        margin-left: 250px;
+    }
+    .cart{
+        margin-left: 10px;
+    }
+    .image1{
+        background-size: contain;
+    }
+    .class{
+        margin-top: -230px;
+    }
+    .section2{
+        margin-top: 15px;
+        height: 60px;
+    }
+    .popular{
+        text-align: center;
+    }
+    .watch{
+        margin-left: 65px;
+    }
+    .watchs{
+        margin-left: 35px;
+    }
+    .watches{
+        margin-left: 25px;
+    }
+    .women{
+        background-size: 100%;
+        margin-top: -400px;
+    }
+    .men{
+        background-size: 100%;
+    }
+    .man{
+        margin-top: 0;
+    }
+    .access{
+        background-size: 100%;
+        height: 100%;
+        margin-top: -400px;
+    }
+    .access1{
+        background-size: 100%;
+        height: 100%;
+        margin-top: -380px;
+    }
+    .access3{
+        background-size: 100%;
+        height: 100%;
+        margin-top: -320px;
+    }
+    .access4{
+        background-size: 100%;
+        height: 100%;
+        margin-top: -200px;
+    }
+    .rare{
+        font-size: 10px;
+    }
+    .luxu{
+        margin-top: -100px;
+        text-align: center;
+    }
+    .save{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        text-align: center;
+    }
+    .saves{
+        text-align: center;
+        margin-top: 50px !important;
+    }
+    .forms{
+        margin-: 50px !important;
+    }
 }
