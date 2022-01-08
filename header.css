@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background: black;
+}
+.envy{
+    padding-top: 30px;
+}
+.best{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.best span{
+    font-size: 20px;
+}
+.best:hover{
+    text-decoration: none;
+    color: black;
+}
+.brand{
+    margin-left: 169px;
+}
+.search{
+    border: 1px solid black; 
+    margin-top: 25px;
+    padding-right: 50px;
+    padding-left: 5px;
+}
+.absolute{
+    position: relative;
+    right: 32px;
+    background: #FCBD70;
+    color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.cart{
+    margin-top: 20px;
+    color: black;
+}
+.cart:hover{
+    color: black;
+}
+.sign{
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    margin-left: 15px;
+}
+.sign:hover{
+    text-decoration: none;
+    color: black;
+}
+.magss{
+    color: black;
+    margin-left: 23px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.magss:hover{
+    text-decoration: none;
+    border-bottom: 2px solid black!important;
+    color: black;
+}
+.image1{
+    background-image: url('img/flash-banner-12062021.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+}
+.section2{
+    background-color: #F3F4F6;
+    height: 5vh;
+    color: black;
+}
+.section2:hover{
+    background-color: #DFE0E0;
+    color: black;
+    text-decoration: none;
+}
