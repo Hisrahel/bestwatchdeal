@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardo{
+    background: white;
+    border: none;
+    width: 55%;
+    margin-top: 10px;
+}
+.card{
+    background: white;
+    opacity: 0.6;
+    color: black;
+    border: none;
+}
+.access{
+    background: url('img/a.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+}
+.access1{
+    background: url('img/a2.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.access4{
+    background: url('img/a3.jpg');
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: 99%;
+}
+.access3{
+    background: url('img/a4.jpg');
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: 99%;
+}
+.rare{
+    font-size: 23px;
+    font-weight: 650;
+    color: black;
+}
+.rare:hover{
+    color: black;
+    text-decoration: black;
+}

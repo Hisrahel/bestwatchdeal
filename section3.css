@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.men{
+    background: url('img/mens-watches-bg.jpg');
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 3px solid white;
+}
+.women{
+    background: url('img/women-watches-bg.jpg');
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.man{
+    background: #f3f4f663;
+    margin-top: 120px;
+}
+.met{
+    color: black;
+}
+.met:hover{
+    color: black;
+    text-decoration: none;
+}

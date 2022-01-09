@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pic1{
+    background-image: url('img/pic1.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.pic2{
+    background-image: url('img/pic2.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.pic3{
+    background-image: url('img/pic3.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.pic4{
+    background-image: url('img/pic4.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.card{
+    background: white;
+    opacity: 0.6;
+    color: black;
+    border: none;
+}
+.section3{
+    width: 70%;
+    margin-top: 60px;
+}
+.sale{
+    font-size: 20px;
+    color: black;
+}
+.sale:hover{
+    color: black;
+    text-decoration: none;
+}
+.sale1{
+    color: black;
+}
+.sale1:hover{
+    color: black;
+    text-decoration: none;
+}

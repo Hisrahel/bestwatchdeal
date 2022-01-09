@@ -10,3 +10,15 @@
     color: black;
     text-decoration: none;
 }
+.loop{
+    background: #CFD4DA;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: none;
+}
+.form{
+    background: #F3F4F6;
+    margin-left: 60px;
+    padding: 24px 60px 24px 30px; 
+    border: none;
+}
